@@ -1,0 +1,15 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 10
+  username: postgres
+  password: postgres
+  host: localhost
+
+development:
+  <<: *default
+  database: cap_app_dev
+
+test:
+  <<: *default
+  database: cap_app_test
