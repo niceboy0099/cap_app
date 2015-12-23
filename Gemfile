@@ -39,6 +39,8 @@ gem 'spring',        group: :development
 # Use debugger
 #gem 'debugger', group: [:development, :test]
 
+gem 'rails_12factor', group: :production 
+
 # Add Bootstrape styles
 gem "twitter-bootstrap-rails"
 gem 'devise-bootstrap-views'
